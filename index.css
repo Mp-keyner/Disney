@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disney +</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://firebasestorage.googleapis.com/v0/b/fb-picporter.appspot.com/o/documentos%2Fdisne.png?alt=media&token=9036fbe2-56df-4a0d-8a32-bd0b7a80d526"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <button class="btnInit">INICIAR SESIÓN</button>
+    </header>
+    <main>
+      <section class="Sec1">
+        <div class="Sec1div">
+          <img
+            src="https://cnbl-cdn.bamgrid.com/assets/7ecc8bcb60ad77193058d63e321bd21cbac2fc67281dbd9927676ea4a4c83594/original"
+            alt=""
+            class="logo"
+          />
+          <h1 class="til">Tus historias favoritas, todas en un mismo lugar.</h1>
+          <button class="btnOfer">CONTRATA LA OFERTA COMBO+</button>
+          <div>
+            <a href="#"> Suscribirme solo a Disney+ </a>
+            <img
+              src="https://cnbl-cdn.bamgrid.com/assets/7ecc8bcb60ad77193058d63e321bd21cbac2fc67281dbd9927676ea4a4c83594/original"
+              class="row"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <br />
+        <div
+          class="Sec1div"
+          style="
+            width: 100%;
+            font-size: 1.6pc;
+            text-align: center;
+            align-items: center;
+          "
+        >
+          <h2>Elige tu plan</h2>
+          <p>Puedes cancelar en cualquier momento.</p>
+        </div>
+      </section>
+      <section class="Sec2">
+        <div class="izq">
+          <img
+            src="https://cnbl-cdn.bamgrid.com/assets/dae41e464f90a537d55064a1609a99890fb93a408af955519dbe9992e0ab3a04/original"
+            alt=""
+          />
+        </div>
+        <div class="der">
+          <h2>Cuando quieras, donde quieras</h2>
+          <p>
+            Disfrútalo en tu pantalla favorita, ya sea tu TV, tableta,
+            computadora, teléfono y otros. Vive una experiencia única con una
+            amplia selección de títulos en 4K. Además, puedes ver en cuatro
+            pantallas en simultáneo para que nadie se quede afuera.
+          </p>
+        </div>
+      </section>
+      <section class="Sec3">
+        <h2>Originales Disney+ exclusivos</h2>
+        <p>
+          Disfruta de películas, series y documentales nunca antes vistos. Solo
+          en Disney+
+        </p>
+        <div class="GridSe">
+          <img
+            src="https://cnbl-cdn.bamgrid.com/assets/ac915426b021288c04f8908ce12d080dcd70953fe0fac328383c7d5e3a253843/original"
+            alt=""
+          />
+          <img
+            src="https://cnbl-cdn.bamgrid.com/assets/47420f96766e18e3581fb43673744c6f650397153e23c494f21c4774e54c9f67/original"
+            alt=""
+          />
+          <img
+            src="https://cnbl-cdn.bamgrid.com/assets/1742d878d2d5475eae2afba94902b3b41b313fe1f0897579c3293c5b82c70693/original"
+            alt=""
+          />
+          <img
+            src="https://cnbl-cdn.bamgrid.com/assets/0d48eda3cc24d42b565ca1a465a86a3a0e0f4a7f70dc2fec1c1edaeec2cbcc66/original"
+            alt=""
+          />
+          <img
+            src="https://cnbl-cdn.bamgrid.com/assets/24069b782e1b1531b7197153b6ac1819191ca448aa4576cdd3767fa47270aae3/original"
+            alt=""
+          />
+          <img
+            src="https://cnbl-cdn.bamgrid.com/assets/1742d878d2d5475eae2afba94902b3b41b313fe1f0897579c3293c5b82c70693/original"
+            alt=""
+          />
+          <img
+            src="https://cnbl-cdn.bamgrid.com/assets/3b3873e224ad242c3881403e14bac752101fe4658900f5bb23b0eaab77313797/original"
+            alt=""
+          />
+          <img
+            src="https://cnbl-cdn.bamgrid.com/assets/62b2382bfe7714fdde4f6ad404ae154009af780be7a73407e060d377c1400c6d/original"
+            alt=""
+          />
+          <img
+            src="https://cnbl-cdn.bamgrid.com/assets/c6a366b03bb9f332381cf85c8aaf93924540ed1a3dbc601d050bfcb52080a54e/original"
+            alt=""
+            class="set"
+          />
+        </div>
+      </section>
+      <section class="Sec4">
+        <img
+          src="https://cnbl-cdn.bamgrid.com/assets/bfba981dd774075133f01cb897c280e3616d573e1743f558b417cff2e8b349c0/original"
+          alt=""
+        />
+        <div>
+          <h2>Descarga series y películas</h2>
+          <p>
+            Descargas ilimitadas para ver lo que quieras, cuando quieras. Lleva
+            tus historias favoritas siempre contigo, incluso sin conexión.
+          </p>
+        </div>
+      </section>
+      <br />
+      <br/>
+      <br>
+      <section class="Sec5">
+        <h2>Disponible en tus dispositivos favoritos</h2>
+        <div class="containerDis">
+          <div>
+            <img
+              src="https://cnbl-cdn.bamgrid.com/assets/d73b7c534afd2af2a454dbd47bd6c766c70e334ce8137084e9cd25c2644dd267/original"
+              alt=""
+            />
+            <h3>Comútadoras</h3>
+            <span>Chome OS</span>
+            <span>MacOS</span>
+            <span>PC Windows</span>
+          </div>
+          <div>
+            <img
+              src="https://cnbl-cdn.bamgrid.com/assets/00fb59319fa715222100d8a84d11bc7e23a42970b4f413c9e85166d0cfba9346/original"
+              alt=""
+            />
+            <h3>TV</h3>
+            <span>Amazon Fire TV</span>
+            <span>Android TV</span>
+            <span>Apple TV</span>
+            <span>Chromecast</span>
+            <span>LG</span>
+            <span>Roku</span>
+            <span>Samsung</span>
+          </div>
+          <div>
+            <img
+              src="https://cnbl-cdn.bamgrid.com/assets/51b639d2ebe97ee175975c29d42a90b0e043713856db8e5d6d9fb87b2b3a48c0/original"
+              alt=""
+            />
+            <h3>Consolas</h3>
+            <span>PS4</span>
+            <span>PS5</span>
+            <span>Xbox One</span>
+            <span>Xbox Series X</span>
+            <span>Xbox Series S</span>
+          </div>
+          <div>
+            <img
+              src="https://cnbl-cdn.bamgrid.com/assets/66475056e769443ef9a491a48dfa44059c8964890ae9ef7c4f69f322693c59d8/original"
+              alt=""
+            />
+            <h3>Celulares y tabletas</h3>
+            <span>Tabletas Amazon Fire</span>
+            <span>Celulares y tabletas Android</span>
+            <span>iPhone y iPad</span>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <br>
+      <section class="Sec6">
+        <h2>Recomendades</h2>
+        <br>
+        <div>
+          <img
+            src="https://lumiere-a.akamaihd.net/v1/images/lat_2ae5e247.jpeg"
+            alt=""
+          />
+          <h2>Guardianes de la Galaxia Vol.3</h2>
+        </div>
+        <p>
+          En "Guardianes de la Galaxia Volumen 3" de Marvel Studios, nuestros
+          queridos inadaptados se están amoldando a la vida en Knowhere cuando,
+          de pronto, comienza a afectarlos el pasado turbulento de Rocket. Peter
+          Quill debe reunir a su equipo para salvarle la vida a Rocket. Si no lo
+          logran, podría ser el fin de los Guardianes tal como los conocemos.
+        </p>
+        <br />
+        <div class="Peli">
+            <div>
+          <h2>Day y sus aventuras en VILLA ESTADIO</h2>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/fb-picporter.appspot.com/o/documentos%2Fday.jpeg?alt=media&token=4023483c-5d28-4400-a993-eee852dc9549"
+            alt=""
+          />
+        </div>
+        <p>
+          En "Guardianes de la Galaxia Volumen 3" de Marvel Studios, nuestros
+          queridos inadaptados se están amoldando a la vida en Knowhere cuando,
+          de pronto, comienza a afectarlos el pasado turbulento de Rocket. Peter
+          Quill debe reunir a su equipo para salvarle la vida a Rocket. Si no lo
+          logran, podría ser el fin de los Guardianes tal como los conocemos.
+        </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
