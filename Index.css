@@ -1,0 +1,245 @@
+:root {
+  --bg-btn: #6421ff;
+  --bg-body: #040814;
+  --bg-btn-iniciar: #00000099;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("./Avenir-Font/avenir_ff/AvenirLTStd-Black.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: var(--bg-body);
+  color: white;
+  font-family: "Prompt", sans-serif;
+}
+.btnInit {
+  background: var(--bg-btn-iniciar);
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid white;
+  position: absolute;
+  top: 0.6pc;
+  right: 0.6pc;
+}
+.Sec1 {
+  background-image: url("https://cnbl-cdn.bamgrid.com/assets/8fd864361fc2e5c47eac21dc0a54ad594d7357155066574cb311f797ee32416d/original");
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 40pc;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2pc;
+  text-align: center;
+  justify-content: end;
+  padding-bottom: 1pc;
+  padding: 0 4pc;
+}
+.Sec1 div {
+  width: 27pc;
+  text-align: start;
+  align-items: start;
+}
+.Sec1div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2pc;
+  flex-direction: column;
+}
+.Sec1div div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1pc;
+}
+.Sec2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid blue;
+  margin-bottom: 8pc;
+}
+.fondo {
+  width: 100%;
+}
+.logo {
+  width: 40%;
+}
+.btnOfer {
+  background: var(--bg-btn);
+  color: white;
+  padding: 15px;
+  width: 96%;
+  border-radius: 4px;
+  font-size: 1pc;
+  border: none;
+}
+.til {
+  font-size: 1.7pc;
+}
+a {
+  color: white;
+  font-weight: 100;
+}
+.row {
+  width: 3pc;
+}
+.izq {
+  width: 100%;
+  border: 1px solid yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.izq img {
+  width: 90%;
+}
+.der {
+  width: 100%;
+  border: 1px solid greenyellow;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 1pc;
+  padding: 1pc 0;
+}
+.der h2 {
+  font-size: 1.6pc;
+}
+.der p {
+  font-weight: 100;
+  width: 90%;
+  font-size: 1pc;
+}
+.GridSe {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1pc;
+  padding: 1pc;
+  justify-content: center;
+}
+.GridSe img {
+  width: 100%;
+}
+.Sec3 {
+  padding: 1pc 4pc;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1pc;
+}
+.Sec3 p {
+  font-weight: 100;
+  width: 90%;
+}
+.GridCenter {
+  grid-column: span 2; /* Ocupa dos columnas completas */
+  justify-self: center;
+}
+.Sec4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1pc;
+  position: relative;
+}
+.Sec4 div {
+  position: absolute;
+  width: 30pc;
+  text-align: initial;
+  display: flex;
+  flex-direction: column;
+  gap: 1pc;
+  right: 12pc;
+}
+.Sec4 img {
+  width: 90%;
+}
+.Sec5 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1pc;
+  padding-bottom: 10pc;
+}
+.containerDis div {
+  display: flex;
+  flex-direction: column;
+}
+.containerDis {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.containerDis img {
+  width: 100%;
+}
+.Sec6 {
+  display: flex;
+  align-items: center;
+  gap: 0.6pc;
+  padding: 0 1pc;
+  flex-direction: column;
+}
+.Sec6 img {
+  width: 50%;
+}
+.Sec6 div {
+  display: flex;
+  gap: 0.6pc;
+}
+.Peli{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 500px) {
+  .set {
+    display: none;
+  }
+  .Sec1 {
+    background-image: url("https://cnbl-cdn.bamgrid.com/assets/1aa520e66bc5c08b2704da0f3cc4534ae77749471e2049d30ce438a67fe2ba77/original");
+    height: 51pc;
+    padding: 0 1pc;
+  }
+  .Sec2 {
+    flex-direction: column;
+  }
+  .Sec1 div {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .Sec3 {
+    padding: 1pc 0;
+  }
+  .GridSe {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Sec4 div {
+    position: static;
+    width: 90%;
+    text-align: center;
+  }
+  .Sec5 {
+    padding: 0 1pc;
+  }
+  .containerDis {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Peli{
+      flex-direction: column;
+  }
+}
