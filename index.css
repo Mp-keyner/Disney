@@ -200,10 +200,19 @@ a {
   display: flex;
   gap: 0.6pc;
 }
-.Peli{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.Peli {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Peli div {
+  width: 50%;
+}
+.portada {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
 }
 @media screen and (max-width: 500px) {
   .set {
@@ -239,7 +248,12 @@ a {
   .containerDis {
     grid-template-columns: repeat(2, 1fr);
   }
-  .Peli{
-      flex-direction: column;
+  .Peli {
+    flex-direction: column;
+    margin-bottom: 4pc;
+  }
+  .Peli div,
+  .portadata {
+    width: 100%;
   }
 }

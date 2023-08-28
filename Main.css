@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background-color: #010102;
+  font-family: sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1pc 2pc;
+}
+nav img {
+  width: 5pc;
+}
+nav div,
+nav div div {
+  display: flex;
+  align-items: center;
+}
+nav div {
+  gap: 1pc;
+}
+nav div div p {
+  margin-top: 4px;
+}
+nav svg {
+  width: 2pc;
+}
+.Sec1 {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Sec1 img {
+  width: 40%;
+}
+.Sec2 {
+  height: 80vh;
+  padding: 0 5pc;
+}
+.Sec2 div {
+  white-space: nowrap;
+  overflow: scroll;
+  margin: 1pc 0;
+}
+.fondo {
+  position: fixed;
+  top: 0;
+  z-index: -99;
+  width: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+.vide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.logoD {
+  position: absolute;
+  width: 20pc;
+  left: 7pc;
+}
